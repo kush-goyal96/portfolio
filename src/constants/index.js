@@ -1,78 +1,65 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
+import project2 from "../assets/projects/project-2.png";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
 
- const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+const HERO_CONTENT = 'I am a passionate full stack developer specializing in the MERN stack, with a focus on building dynamic and scalable web applications. As a final-year student at VIT Vellore, pursuing a degree in Computer Science Engineering, I have gained hands-on experience with front-end technologies like React, and back-end technologies including Node.js, MongoDB, and Express. My goal is to leverage my expertise in the MERN stack to develop innovative solutions that enhance user experiences and drive business growth.'
+const ABOUT_TEXT = "I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. Growing up in Bangalore, I developed a love for problem-solving and technology, which led me to pursue a degree in Computer Science and Engineering at Vellore Institute of Technology, where I am now a final-year student. Specializing in the MERN stack, I enjoy working with technologies like React, Node.js, MongoDB, and Express to build scalable solutions. Outside of coding, I am passionate about playing and watching football. I also enjoy staying active, exploring new technologies, and continuously seeking opportunities to learn and grow."
 
- const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 5 years of professional experience, I have worked with a variety of technologies, including React, Next.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
-
- const EXPERIENCES = [
+const EXPERIENCES = [
   {
-    year: "2023 - Present",
-    role: "Senior Full Stack Developer",
-    company: "Google Inc.",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
-    technologies: ["Javascript", "React.js", "Next.js", "mongoDB"],
+    year: "September 2023 – November 2023",
+    role: "Automation Intern",
+    company: "Capgemini",
+    description:
+      "Engineered and optimized server configurations for diverse projects utilizing Ansible and vRealize Orchestrator, enhancing systemefficiency and reliability through collaborative teamwork. Orchestrated and managed efficient server ecosystems using automated vRO workflows, achieving 99.95% uptime and partnering with cross-functional teams to support uninterrupted business operations.",
+    technologies: ["Javascript", "Ansible", "vRealize Orchestrator"],
   },
   {
-    year: "2022 - 2023",
+    year: "June 2019 – July 2023",
     role: "Frontend Developer",
-    company: "Adobe",
-    description: `Designed and developed user interfaces for web applications using Next.js and React. Worked closely with backend developers to integrate frontend components with Node.js APIs. Implemented responsive designs and optimized frontend performance.`,
-    technologies: ["HTML", "CSS", "Vue.js", "mySQL"],
-  },
-  {
-    year: "2021 - 2022",
-    role: "Full Stack Developer",
-    company: "Facebook",
-    description: `Developed and maintained web applications using JavaScript, React.js, and Node.js. Designed and implemented RESTful APIs for data communication. Collaborated with cross-functional teams to deliver high-quality software products on schedule.`,
-    technologies: ["Python", "Svelte", "Three.js", "Postgres"],
-  },
-  {
-    year: "2020 - 2021",
-    role: "Software Engineer",
-    company: "Paypal",
-    description: `Contributed to the development of web applications using JavaScript, React.js, and Node.js. Managed databases and implemented data storage solutions using MongoDB. Worked closely with product managers to prioritize features and enhancements.`,
-    technologies: ["Ruby", "Rails", "PHP", "Sqlite"],
+    company: "Orom Corp",
+    description:
+      "Developed a high-performance static website using Next.js, a React framework for server-rendered static pages, to deliver fast and reliable web experiences. Leveraged React components to design and implement a visually appealing and user-friendly landing page, enhancing user engagement and satisfaction. Applied SEO best practices to optimize the landing page for search engine rankings, increasing visibility and traffic.",
+    technologies: ["HTML", "CSS", "Next.js", "Vercel"],
   },
 ];
 
- const PROJECTS = [
+const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Sociopedia",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "Engineered a comprehensive full stack social networking platform using React.js, Redux, and Material-UI for the frontend, coupled with a Node.js and Express backend, and MongoDB database. Constructed key features including JWT authentication, RESTful API endpoints for user and post management, and responsive design for seamless user experience across devices.",
+    technologies: ["Javascript", "JWT", "React.js", "Node.js", "MongoDB", "Express.js", "Mongoose"],
   },
   {
-    title: "Task Management App",
+    title: "Ethereum Deposit Tracker",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "Built a real-time Ethereum deposit tracking system using the Alchemy API, resulting in a 98% accuracy rate in transaction details. Implemented a notification system via Telegram and integrated Prometheus and Grafana for metrics collection and visualization, enabling performance monitoring and operational insights.",
+    technologies: ["Typescript", "Alchemy", "web3.js", "Prometheus", "Grafana"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["HTML", "Tailwind-CSS", "React.js", "framer-motion"],
   },
   {
-    title: "Blogging Platform",
+    title: "Weather Monitoring App",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
-    technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
+      "Architected a sophisticated weather monitoring system utilizing embedded sensors for temperature, humidity, noise levels, and fire alerts. Integrated a microcontroller that processed data with a 95% accuracy rate. Built a dynamic front-end with React and Recharts, utilizing Axios for API calls to display real-time data.",
+    technologies: ["HTML", "CSS", "React.js"],
   },
 ];
 
- const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
+const CONTACT = {
+  address: "Bangalore, India",
   phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+  email: "goyalkush096@gmail.com",
 };
 
 export { HERO_CONTENT, ABOUT_TEXT, EXPERIENCES, PROJECTS, CONTACT };

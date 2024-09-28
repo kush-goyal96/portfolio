@@ -1,25 +1,28 @@
-import logo from '../assets/kevinRushLogo.png'
-import { 
-    FaLinkedin,
-    FaGithub,
-    FaInstagram,
- } from 'react-icons/fa'
-import { FaSquareXTwitter } from 'react-icons/fa6'
+import logo from "../assets/myPic.png";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaSquareXTwitter } from "react-icons/fa6";
+import { SiLeetcode } from "react-icons/si";
 
 const Navbar = () => {
   return (
-    <nav className='mb-5 flex items-center justify-between py-6'>
-        <div className='flex flex-shrink-0 items-center'>
-            <img className='mx-2 w-10' src={logo} alt='logo'/>
-        </div>
-        <div className='m-8 flex items-center justify-center gap-4 text-2xl'>
-            <FaGithub/>
-            <FaLinkedin/>
-            <FaInstagram/>
-            <FaSquareXTwitter/>
-        </div>
+    <nav className="mb-5 flex items-center justify-between">
+      <div className="flex flex-shrink-0 items-center">
+        <img className="mx-2 w-10" src={logo} alt="logo" />
+      </div>
+      <div className="m-8 flex items-center justify-center gap-4 text-2xl">
+        <a href="https://github.com/kush-goyal96">
+          <FaGithub className="hover:text-green-400" />
+        </a>
+        <a href="https://www.linkedin.com/in/kushgoyal96/">
+          <FaLinkedin className="hover:text-blue-500" />
+        </a>
+        <a href="https://leetcode.com/u/ExoticOrange96/">
+          <SiLeetcode className="hover:text-yellow-500" />
+        </a>
+        <FaSquareXTwitter />
+      </div>
     </nav>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
