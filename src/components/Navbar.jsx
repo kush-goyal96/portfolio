@@ -1,6 +1,5 @@
 import logo from "../assets/myPic.png";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import { FaSquareXTwitter } from "react-icons/fa6";
 import { SiLeetcode } from "react-icons/si";
 
 const Navbar = () => {
@@ -19,7 +18,6 @@ const Navbar = () => {
         <a href="https://leetcode.com/u/ExoticOrange96/">
           <SiLeetcode className="hover:text-yellow-500" />
         </a>
-        <FaSquareXTwitter />
       </div>
     </nav>
   );
