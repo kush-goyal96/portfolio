@@ -32,6 +32,25 @@ const Technologies = () => {
         <div className="rounded-2xl border-4 border-neutral-800 p-4">
           <FaJava className="text-7xl text-cyan-400" />
         </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+          <FaJava className="text-7xl text-cyan-400" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+          <FaJava className="text-7xl text-cyan-400" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+          <FaJava className="text-7xl text-cyan-400" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+          <FaJava className="text-7xl text-cyan-400" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+          <FaJava className="text-7xl text-cyan-400" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4">
+          <FaJava className="text-7xl text-cyan-400" />
+        </div>
+        
       </div>
     </div>
   );
