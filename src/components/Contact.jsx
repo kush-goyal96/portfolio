@@ -10,9 +10,11 @@ const Contact = () => {
           <FaLocationDot className="m-2"/>
           {CONTACT.address}
         </p>
-        <p className="flex text-center justify-center items-center border-   ">
+        <p className="flex text-center justify-center items-center">
           <IoIosMail className="m-2"/>
-          {CONTACT.email}
+          <a href={`mailto:${CONTACT.email}`} className="underline">
+            {CONTACT.email}
+          </a>
         </p>
       </div>
     </div>

@@ -29,6 +29,7 @@ const PROJECTS = [
   {
     title: "Sociopedia",
     image: project1,
+    link: "https://github.com/kush-goyal96/Sociopedia",
     description:
       "Engineered a comprehensive full stack social networking platform using React.js, Redux, and Material-UI for the frontend, coupled with a Node.js and Express backend, and MongoDB database. Constructed key features including JWT authentication, RESTful API endpoints for user and post management, and responsive design for seamless user experience across devices.",
     technologies: ["Javascript", "JWT", "React.js", "Node.js", "MongoDB", "Express.js", "Mongoose"],
@@ -36,6 +37,7 @@ const PROJECTS = [
   {
     title: "Ethereum Deposit Tracker",
     image: project2,
+    link:"https://github.com/kush-goyal96/Ethereum-Deposit-Tracker",
     description:
       "Built a real-time Ethereum deposit tracking system using the Alchemy API, resulting in a 98% accuracy rate in transaction details. Implemented a notification system via Telegram and integrated Prometheus and Grafana for metrics collection and visualization, enabling performance monitoring and operational insights.",
     technologies: ["Typescript", "Alchemy", "web3.js", "Prometheus", "Grafana"],
@@ -43,6 +45,7 @@ const PROJECTS = [
   {
     title: "Portfolio Website",
     image: project3,
+    link: "https://github.com/kush-goyal96/portfolio",
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
     technologies: ["HTML", "Tailwind-CSS", "React.js", "framer-motion"],
@@ -50,6 +53,7 @@ const PROJECTS = [
   {
     title: "Weather Monitoring App",
     image: project4,
+    link:"https://github.com/kush-goyal96/EmbeddedProject",
     description:
       "Architected a sophisticated weather monitoring system utilizing embedded sensors for temperature, humidity, noise levels, and fire alerts. Integrated a microcontroller that processed data with a 95% accuracy rate. Built a dynamic front-end with React and Recharts, utilizing Axios for API calls to display real-time data.",
     technologies: ["HTML", "CSS", "React.js"],
