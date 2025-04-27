@@ -8,6 +8,14 @@ const ABOUT_TEXT = "I am a dedicated and versatile full stack developer with a p
 
 const EXPERIENCES = [
   {
+    year: "January 2025 – July 2025",
+    role: "Software Development Intern",
+    company: "Zebra Technologies",
+    description:
+      "Developed a Retrieval-Augmented Generation (RAG) system leveraging GPT-4o to automate test case creation, reducing development timeline from 4 months to a few hours while maintaining quality standards. Engineered a Microsoft GraphRAG pipeline to establish enhanced semantic connections between features, resulting in significantly more accurate and comprehensive test case generation.",
+    technologies: ["Python", "Langchain", "RAG", "GraphRAG"],
+  },
+  {
     year: "September 2023 – November 2023",
     role: "Automation Intern",
     company: "Capgemini",
@@ -16,7 +24,7 @@ const EXPERIENCES = [
     technologies: ["Javascript", "Ansible", "vRealize Orchestrator"],
   },
   {
-    year: "June 2019 – July 2023",
+    year: "June 2023 – July 2023",
     role: "Frontend Developer",
     company: "Orom Corp",
     description:

@@ -38,6 +38,7 @@ const Technologies = () => {
       </motion.h2>
       <div className="flex flex-wrap items-center justify-center gap-4">
         <motion.div
+          whileHover={{ scale: 1.1 }}
           variants={iconVariants(2.7)}
           initial="initial"
           animate="animate"
@@ -46,6 +47,7 @@ const Technologies = () => {
           <SiMongodb className="text-7xl text-green-500" />
         </motion.div>
         <motion.div
+          whileHover={{ scale: 1.1 }}
           variants={iconVariants(2.6)}
           initial="initial"
           animate="animate"
@@ -54,6 +56,7 @@ const Technologies = () => {
           <SiExpress className="text-7xl" />
         </motion.div>
         <motion.div
+          whileHover={{ scale: 1.1 }}
           variants={iconVariants(2.4)}
           initial="initial"
           animate="animate"
@@ -62,6 +65,7 @@ const Technologies = () => {
           <RiReactjsLine className="text-7xl text-cyan-400" />
         </motion.div>
         <motion.div
+          whileHover={{ scale: 1.1 }}
           variants={iconVariants(2.2)}
           initial="initial"
           animate="animate"
@@ -70,6 +74,7 @@ const Technologies = () => {
           <FaNodeJs className="text-7xl text-green-500" />
         </motion.div>
         <motion.div
+          whileHover={{ scale: 1.1 }}
           variants={iconVariants(2.6)}
           initial="initial"
           animate="animate"
@@ -78,6 +83,7 @@ const Technologies = () => {
           <TbBrandNextjs className="text-7xl" />
         </motion.div>
         <motion.div
+          whileHover={{ scale: 1.1 }}
           variants={iconVariants(3)}
           initial="initial"
           animate="animate"
@@ -86,6 +92,7 @@ const Technologies = () => {
           <SiJavascript className="text-7xl text-yellow-500" />
         </motion.div>
         <motion.div
+          whileHover={{ scale: 1.1 }}
           variants={iconVariants(2.2)}
           initial="initial"
           animate="animate"
@@ -94,6 +101,7 @@ const Technologies = () => {
           <TbSql className="text-7xl" />
         </motion.div>
         <motion.div
+          whileHover={{ scale: 1.1 }}
           variants={iconVariants(2.6)}
           initial="initial"
           animate="animate"
@@ -102,6 +110,7 @@ const Technologies = () => {
           <FaJava className="text-7xl text-red-400" />
         </motion.div>
         <motion.div
+          whileHover={{ scale: 1.1 }}
           variants={iconVariants(2.6)}
           initial="initial"
           animate="animate"

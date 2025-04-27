@@ -12,6 +12,7 @@ const Contact = () => {
         </p>
         <p className="flex text-center justify-center items-center">
           <IoIosMail className="m-2"/>
+          {/* CREDIT TO ATHARV GUPTA */}
           <a href={`mailto:${CONTACT.email}`} className="underline">
             {CONTACT.email}
           </a>
